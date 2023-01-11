@@ -1,3 +1,8 @@
+/*
+ * 	gcc -Wall -g l06e02.c -lpthread -o main
+ * 	./main 2 strA strB
+ */
+
 #include <unistd.h>
 #include <string.h>
 #include <pthread.h>
