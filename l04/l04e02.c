@@ -105,6 +105,8 @@ int main(int argc, char *argv[]) {
 	fprintf(stdout, "]\n");
 	close(fd);
 
+	free(childs);
+
 	return 0;
 }
 
